@@ -1,0 +1,25 @@
+[build-system]
+requires=["hatchling"]
+build-backend="hatchling.build"
+
+[project]
+name = "macaulay"
+version = "0.0.1"
+authors = [
+    { name="James Gopsill", email="james.gopsill@gmail.com" },
+]
+description = "A ."
+readme = "README.md"
+requires-python = ">=3.10"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+dependencies = [
+    "numpy"
+]
+
+[project.urls]
+"Homepage" = ""
+"Bug Tracker" = ""
